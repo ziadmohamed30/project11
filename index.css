@@ -563,26 +563,151 @@ header {
   }
 }
 
-.buttonn{
-  button{
+.buttonn {
+  button {
     font-family: Rubik, sans-serif;
-font-size: 16px;
-line-height: 24px;
-text-decoration: none solid rgb(255, 255, 255);
-text-align: center;
-vertical-align: middle;
-word-spacing: 0px;
-border: 1px solid  #F74780;
-padding: 16px 48px 16px 48px;
-border-radius: 800px;
-outline: rgb(255, 255, 255) dashed 0px;
-transition: 0.5s;
-background-color: #f74780;
-color: white;
-&:hover{
-color: #f74780;
-background-color: white;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+    word-spacing: 0px;
+    border: 1px solid #f74780;
+    padding: 16px 48px 16px 48px;
+    border-radius: 800px;
+    outline: rgb(255, 255, 255) dashed 0px;
+    transition: 0.5s;
+    background-color: #f74780;
+    color: white;
+    &:hover {
+      color: #f74780;
+      background-color: white;
+    }
+  }
 }
 
+.users {
+  padding-top: 180px !important;
+  .image {
+  }
+  .feature {
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-decoration: none solid rgb(247, 71, 128);
+      word-spacing: 0px;
+      color: #f74780;
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+    h1 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-decoration: none solid rgb(53, 63, 79);
+      word-spacing: 0px;
+      color: #353f4f;
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.425rem + 2.1vw);
+        font-weight: 700;
+        line-height: 1.2;
+      }
+    }
+    p {
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      word-spacing: 0px;
+      color: #757575;
+    }
+    .nums {
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      @media screen and (max-width: 767px) {
+        gap: 25px;
+      }
+      .icon {
+        i {
+          font-size: 64px;
+          color: #6610f2;
+        }
+        .small {
+          display: flex;
+          flex-direction: column;
+
+          h2 {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.4px;
+            text-decoration: none solid rgb(53, 63, 79);
+            word-spacing: 0px;
+            color: #353f4f;
+            @media screen and (max-width: 767px) {
+              font-size: calc(1.325rem + 0.9vw);
+              font-weight: 700px;
+            }
+          }
+          small {
+            font-family: Rubik, sans-serif;
+            font-size: 14px;
+            line-height: 21px;
+            text-decoration: none solid rgb(53, 63, 79);
+            word-spacing: 0px;
+            color: #353f4f;
+            margin: 0 !important;
+          }
+        }
+      }
+    }
+    button {
+      margin-top: 20px;
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(255, 255, 255);
+      text-align: center;
+      vertical-align: middle;
+      word-spacing: 0px;
+      border: 1px solid #f74780;
+      padding: 16px 48px 16px 48px;
+      color: white;
+      background-color: #f74780;
+      border-radius: 800px;
+      &:hover {
+        color: #f74780;
+        background-color: white;
+      }
+    }
+  }
+}
+
+.accordio {
+  .zizo {
+    .accordion-body {
+      h5 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-decoration: none solid rgb(53, 63, 79);
+        word-spacing: 0px;
+        color: #353f4f;
+      }
+      p {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none solid rgb(117, 117, 117);
+        word-spacing: 0px;
+        color: #757575;
+      }
+    }
   }
 }
