@@ -236,8 +236,6 @@ header {
 }
 
 .about {
-
-
   img {
     max-width: 100%;
   }
@@ -313,16 +311,11 @@ header {
 .ourservice {
   margin-top: 170px;
 
-  @media screen and (max-width : 767px) {
+  @media screen and (max-width: 767px) {
     margin-top: 150px;
-
   }
 
   .ahmed {
-
-
-
-
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -362,5 +355,234 @@ header {
       text-decoration: none solid rgb(117, 117, 117);
       word-spacing: 0px;
     }
+  }
+}
+
+.cards1 {
+  .card {
+    text-align: center;
+    word-spacing: 0px;
+
+    background-color: white;
+    transition: 0.5s;
+    outline: rgb(117, 117, 117) dashed 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 45px 0px;
+    border-radius: 10px;
+    padding: 24px;
+    border: none !important;
+    &:hover {
+      background-color: #8080802b;
+    }
+    &:hover > div {
+      background-color: white;
+    }
+    &:hover > button {
+      background-color: white;
+    }
+
+    div {
+      border-radius: 10px;
+      padding: 24px;
+      outline: rgb(117, 117, 117) dashed 0px;
+      background-color: #f6f6fa;
+      transition: 0.5s;
+
+      i {
+        color: #6610f2;
+
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 80px;
+      }
+    }
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-decoration: none solid rgb(53, 63, 79);
+      text-align: center;
+      word-spacing: 0px;
+      color: #353f4f;
+    }
+    p {
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      text-align: center;
+      word-spacing: 0px;
+      color: #757575;
+    }
+    button {
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(247, 71, 128);
+      text-align: center;
+      vertical-align: middle;
+      word-spacing: 0px;
+      background-color: #f6f6fa;
+      color: #f74780;
+      border: 1px solid #f6f6fa;
+      padding: 8px 24px 8px 24px;
+      border-radius: 800px;
+      transition: 0.5s;
+      outline: rgb(247, 71, 128) dashed 0px;
+      &:hover {
+        color: white;
+        background-color: #f74780;
+      }
+    }
+  }
+}
+
+.ourfeature {
+  margin-top: 170px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 150px;
+  }
+
+  .ahmed {
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-decoration: none solid rgb(70, 47, 54);
+      word-spacing: 0px;
+      color: #f74780;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+
+    h1 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-decoration: none solid rgb(53, 63, 79);
+      word-spacing: 0px;
+      color: #353f4f;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.425rem + 2.1vw);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px !important;
+      }
+    }
+
+    p {
+      color: #757575;
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      word-spacing: 0px;
+    }
+  }
+}
+
+.cards2 {
+  .card {
+    text-align: center;
+    word-spacing: 0px;
+
+    background-color: white;
+    transition: 0.5s;
+    outline: rgb(117, 117, 117) dashed 0px;
+
+    border-radius: 10px;
+    padding: 15px;
+    border: none !important;
+
+    div {
+      border-radius: 10px;
+      padding: 24px;
+      outline: rgb(117, 117, 117) dashed 0px;
+      background-color: #f6f6fa;
+      transition: 0.5s;
+
+      i {
+        color: #6610f2;
+
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 80px;
+      }
+    }
+    .arrow {
+      background-color: white;
+
+      a {
+        text-decoration: none;
+
+        &:hover > h4 {
+          color: #c63966;
+        }
+        &:hover > i {
+          color: #c63966;
+        }
+        h4 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 28.8px;
+          text-decoration: none solid rgb(53, 63, 79);
+          text-align: center;
+          word-spacing: 0px;
+          color: #353f4f;
+          @media screen and (max-width: 767px) {
+            font-size: calc(1.275rem + 0.3vw);
+          }
+        }
+        i {
+          font-size: 16px;
+          font-weight: 900;
+          line-height: 24px;
+          text-decoration: none solid rgb(198, 57, 102);
+          text-align: center;
+          word-spacing: 0px;
+          color: #353f4f;
+        }
+      }
+    }
+    p {
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      text-align: center;
+      word-spacing: 0px;
+      color: #757575;
+    }
+  }
+}
+
+.buttonn{
+  button{
+    font-family: Rubik, sans-serif;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none solid rgb(255, 255, 255);
+text-align: center;
+vertical-align: middle;
+word-spacing: 0px;
+border: 1px solid  #F74780;
+padding: 16px 48px 16px 48px;
+border-radius: 800px;
+outline: rgb(255, 255, 255) dashed 0px;
+transition: 0.5s;
+background-color: #f74780;
+color: white;
+&:hover{
+color: #f74780;
+background-color: white;
+}
+
   }
 }
