@@ -588,6 +588,7 @@ header {
 
 .users {
   padding-top: 180px !important;
+  padding-bottom: 110px !important;
   .image {
   }
   .feature {
@@ -689,7 +690,40 @@ header {
 }
 
 .accordio {
+  background-color: #f6f6fa;
+  padding-top: 90px;
+  padding-bottom: 96px;
   .zizo {
+    .accordion-button {
+      background-color: white;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.2px;
+      text-decoration: none solid rgb(117, 117, 117);
+      text-align: left;
+      word-spacing: 0px;
+      padding: 16px 20px 16px 20px;
+      color: #757575;
+      border: none !important;
+    }
+    .accordion-item:has(.accordion-collapse.show) {
+      background-color: white;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #feedf2;
+      color: #de4073;
+      border: 30px solid red;
+    }
+    .accordion-button:not(.collapsed)::after {
+      filter: brightness(0) saturate(100%) invert(26%) sepia(96%) saturate(480%)
+        hue-rotate(290deg);
+    }
+    .accordion-button.collapsed::after {
+      filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%)
+        hue-rotate(0deg);
+    }
+
     .accordion-body {
       h5 {
         font-family: "Plus Jakarta Sans", sans-serif;
@@ -708,6 +742,56 @@ header {
         word-spacing: 0px;
         color: #757575;
       }
+    }
+  }
+}
+
+.pricing {
+  margin-top: 100px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 80px;
+  }
+
+  .ahmed {
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-decoration: none solid rgb(70, 47, 54);
+      word-spacing: 0px;
+      color: #f74780;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+
+    h1 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-decoration: none solid rgb(53, 63, 79);
+      word-spacing: 0px;
+      color: #353f4f;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.425rem + 2.1vw);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px !important;
+      }
+    }
+
+    p {
+      color: #757575;
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      word-spacing: 0px;
     }
   }
 }
