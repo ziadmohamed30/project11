@@ -822,6 +822,10 @@ header {
           text-transform: uppercase;
           word-spacing: 0px;
           color: #353f4f;
+          @media screen and (max-width: 767px) {
+            font-size: calc(1.325rem + 0.9vw) !important;
+            font-weight: 700 !important;
+          }
         }
       }
       .price {
@@ -852,6 +856,11 @@ header {
             text-align: center;
             word-spacing: 0px;
             color: #353f4f;
+            @media screen and (max-width: 767px) {
+              font-size: calc(1.425rem + 2.1vw);
+              font-weight: 700;
+              line-height: 1.2;
+            }
           }
         }
       }
@@ -927,6 +936,55 @@ header {
           background-color: #f74780;
         }
       }
+    }
+  }
+}
+.ourblog {
+  margin-top: 170px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 150px;
+  }
+
+  .ahmed {
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.8px;
+      text-decoration: none solid rgb(70, 47, 54);
+      word-spacing: 0px;
+      color: #f74780;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.275rem + 0.3vw);
+      }
+    }
+
+    h1 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-decoration: none solid rgb(53, 63, 79);
+      word-spacing: 0px;
+      color: #353f4f;
+
+      @media screen and (max-width: 767px) {
+        font-size: calc(1.425rem + 2.1vw);
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 30px !important;
+      }
+    }
+
+    p {
+      color: #757575;
+      font-family: Rubik, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-decoration: none solid rgb(117, 117, 117);
+      word-spacing: 0px;
     }
   }
 }
