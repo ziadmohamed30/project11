@@ -1307,7 +1307,7 @@ header {
     }
     .carousel-item {
       margin-bottom: 120px;
-      @media screen and (max-width: 767px){
+      @media screen and (max-width: 767px) {
         margin-bottom: 120px !important;
       }
       .pic {
@@ -1342,9 +1342,9 @@ header {
       .par {
         padding-left: 150px;
         padding-right: 150px;
-        @media screen and (max-width: 767px){
+        @media screen and (max-width: 767px) {
           padding-left: 20px;
-        padding-right: 20px;
+          padding-right: 20px;
         }
         p {
           font-family: Rubik, sans-serif;
@@ -1383,7 +1383,7 @@ header {
           color: #f74780;
         }
       }
-      @media screen and (max-width : 767px) {
+      @media screen and (max-width: 767px) {
         margin-bottom: 460px;
       }
     }
@@ -1404,9 +1404,58 @@ header {
         i {
           color: #f74780;
         }
-        @media screen and (max-width : 767px) {
-        margin-bottom: 460px;
+        @media screen and (max-width: 767px) {
+          margin-bottom: 460px;
+        }
       }
+    }
+  }
+}
+
+.greyy {
+  background-color: #f6f6f6;
+  .info {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    .infoo {
+      h4 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.8px;
+        text-decoration: none solid rgb(53, 63, 79);
+        word-spacing: 0px;
+        color: #353f4f;
+        margin-bottom: 24px;
+      }
+      a {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 35px;
+        text-decoration: none solid rgb(53, 63, 79);
+        word-spacing: 0px;
+        text-decoration: none;
+        color: #353f4f;
+        transition: 0.5s;
+        &:hover {
+          color: #f74780;
+
+          letter-spacing: 2px;
+        }
+      }
+
+      .pink {
+        width: 32px;
+        height: 32px;
+        background-color: #f74780;
+        border-radius: 50%;
+        color: white;
+        transition: 0.5s;
+        border: 1px solid #f74780;
+        &:hover {
+          color: #f74780;
+          background-color: white;
+        }
       }
     }
   }
