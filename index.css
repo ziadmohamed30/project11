@@ -197,6 +197,13 @@ header {
       border-bottom: 0;
       border-left: 0;
       border-right: 0;
+      a{
+        transition: 0.5s;
+        &:hover{
+          color: #f74780;
+          background-color: transparent;
+        }
+      }
     }
     .nav-item {
       &:hover > .dropdown-toggle {
