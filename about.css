@@ -298,86 +298,64 @@ header {
     }
   }
 }
-
-.herosize {
-  padding-bottom: 130px;
-
-  .hero {
-    padding: 55px;
-    padding-top: 98px !important;
-
+.e404 {
+  background-color: #f8f3ff;
+  padding: 90px 0 90px 0;
+  h1 {
+    animation-duration: 1.5s;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 96px;
+    text-decoration: none solid rgb(53, 63, 79);
+    text-align: center;
+    word-spacing: 0px;
+    color: #353f4f;
     @media screen and (max-width: 767px) {
-      padding-top: 180px !important;
-    }
-
-    .emails {
-      max-width: 100%;
-      animation-duration: 1s;
-
-      h1 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 67.2px;
-        text-decoration: none solid rgb(53, 63, 79);
-        word-spacing: 0px;
-        color: #353f4f;
-
-        @media screen and (max-width: 767px) {
-          font-size: calc(1.475rem + 2.7vw);
-          font-weight: 700;
-          line-height: 1.2;
-        }
-      }
-
-      p {
-        font-family: Rubik, sans-serif;
-        font-size: 24px;
-        line-height: 36px;
-        text-decoration: none solid rgb(117, 117, 117);
-        word-spacing: 0px;
-        color: #757575;
-        animation-delay: 0.5s;
-        animation-duration: 1.2s;
-
-        @media screen and (max-width: 767px) {
-          font-size: calc(1.275rem + 0.3vw) !important;
-          line-height: 1.5;
-        }
-      }
-
-      button {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(255, 255, 255);
-        text-align: center;
-        vertical-align: middle;
-        word-spacing: 0px;
-        background-color: #f74780;
-        color: white;
-        padding: 16px 48px 16px 48px;
-        border: 1px solid #f8598d;
-        border-radius: 800px;
-        transition: 0.5s;
-        animation-delay: 0.5s;
-        animation-duration: 1.2s;
-
-        &:hover {
-          color: #f74780;
-          background-color: white;
-        }
-      }
-    }
-
-    img {
-      max-width: 100%;
-
-      animation-duration: 2s;
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.5;
     }
   }
+  p {
+    animation-duration: 1.5s;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(53, 63, 79);
+    text-align: center;
+    word-spacing: 0px;
+    text-decoration: none;
+    color: #353f4f;
+    text-decoration: none;
+    @media screen and (max-width: 767px) {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+  a {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(53, 63, 79);
+    text-align: center;
+    word-spacing: 0px;
+    text-decoration: none;
+    color: #353f4f;
+    text-decoration: none;
+    margin-right: 7px;
+    margin-left: 7px;
+    @media screen and (max-width: 767px) {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+  .nav-link.active {
+    color: #f74780;
+  }
 }
-
 .about {
   .imagee {
     animation-duration: 1.2s;
@@ -459,140 +437,6 @@ header {
     }
   }
 }
-
-.ourservice {
-  margin-top: 170px;
-
-  @media screen and (max-width: 767px) {
-    margin-top: 150px;
-  }
-
-  .ahmed {
-    animation-duration: 1.2s;
-    h4 {
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 28.8px;
-      text-decoration: none solid rgb(70, 47, 54);
-      word-spacing: 0px;
-      color: #f74780;
-
-      @media screen and (max-width: 767px) {
-        font-size: calc(1.275rem + 0.3vw);
-      }
-    }
-
-    h1 {
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 57.6px;
-      text-decoration: none solid rgb(53, 63, 79);
-      word-spacing: 0px;
-      color: #353f4f;
-
-      @media screen and (max-width: 767px) {
-        font-size: calc(1.425rem + 2.1vw);
-        font-weight: 700;
-        line-height: 1.2;
-        margin-bottom: 30px !important;
-      }
-    }
-
-    p {
-      color: #757575;
-      font-family: Rubik, sans-serif;
-      font-size: 16px;
-      line-height: 24px;
-      text-decoration: none solid rgb(117, 117, 117);
-      word-spacing: 0px;
-    }
-  }
-}
-
-.cards1 {
-  .cardd {
-    animation-duration: 1.2s;
-    .card {
-      text-align: center;
-      word-spacing: 0px;
-
-      background-color: white;
-      transition: 0.5s;
-      outline: rgb(117, 117, 117) dashed 0px;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 45px 0px;
-      border-radius: 10px;
-      padding: 24px;
-      border: none !important;
-      &:hover {
-        background-color: #8080802b;
-      }
-      &:hover > div {
-        background-color: white;
-      }
-      &:hover > button {
-        background-color: white;
-      }
-
-      div {
-        border-radius: 10px;
-        padding: 24px;
-        outline: rgb(117, 117, 117) dashed 0px;
-        background-color: #f6f6fa;
-        transition: 0.5s;
-
-        i {
-          color: #6610f2;
-
-          font-size: 80px;
-          font-weight: 900;
-          line-height: 80px;
-        }
-      }
-      h4 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28.8px;
-        text-decoration: none solid rgb(53, 63, 79);
-        text-align: center;
-        word-spacing: 0px;
-        color: #353f4f;
-      }
-      p {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(117, 117, 117);
-        text-align: center;
-        word-spacing: 0px;
-        color: #757575;
-      }
-      button {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(247, 71, 128);
-        text-align: center;
-        vertical-align: middle;
-        word-spacing: 0px;
-        background-color: #f6f6fa;
-        color: #f74780;
-        border: 1px solid #f6f6fa;
-        padding: 8px 24px 8px 24px;
-        border-radius: 800px;
-        transition: 0.5s;
-        outline: rgb(247, 71, 128) dashed 0px;
-        &:hover {
-          color: white;
-          background-color: #f74780;
-        }
-      }
-    }
-  }
-}
-
 .ourfeature {
   margin-top: 170px;
 
@@ -643,7 +487,6 @@ header {
     }
   }
 }
-
 .cards2 {
   .cardi {
     animation-duration: 1.2s;
@@ -722,7 +565,6 @@ header {
     }
   }
 }
-
 .buttonn {
   animation-duration: 1.2s;
   button {
@@ -746,7 +588,6 @@ header {
     }
   }
 }
-
 .users {
   padding-top: 180px !important;
   padding-bottom: 110px !important;
@@ -853,431 +694,6 @@ header {
       &:hover {
         color: #f74780;
         background-color: white;
-      }
-    }
-  }
-}
-
-.accordio {
-  background-color: #f6f6fa;
-  padding-top: 90px;
-  padding-bottom: 96px;
-  .zizo {
-    animation-duration: 1.2s;
-    .accordion-button {
-      background-color: white;
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 19.2px;
-      text-decoration: none solid rgb(117, 117, 117);
-      text-align: left;
-      word-spacing: 0px;
-      padding: 16px 20px 16px 20px;
-      color: #757575;
-      border: none !important;
-    }
-    .accordion-item:has(.accordion-collapse.show) {
-      background-color: white;
-    }
-    .accordion-button:not(.collapsed) {
-      background-color: #feedf2;
-      color: #de4073;
-      border: 30px solid red;
-    }
-    .accordion-button:not(.collapsed)::after {
-      filter: brightness(0) saturate(100%) invert(26%) sepia(96%) saturate(480%)
-        hue-rotate(290deg);
-    }
-    .accordion-button.collapsed::after {
-      filter: brightness(0) saturate(100%) invert(50%) sepia(0%) saturate(0%)
-        hue-rotate(0deg);
-    }
-
-    .accordion-body {
-      h5 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        text-decoration: none solid rgb(53, 63, 79);
-        word-spacing: 0px;
-        color: #353f4f;
-      }
-      p {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(117, 117, 117);
-        word-spacing: 0px;
-        color: #757575;
-      }
-    }
-  }
-  .zizoo {
-    animation-delay: 0.3s;
-    animation-duration: 1.2s;
-    img {
-      animation-delay: 1.5s;
-      animation-duration: 20s;
-      animation-iteration-count: infinite;
-    }
-  }
-}
-
-.pricing {
-  margin-top: 100px;
-
-  @media screen and (max-width: 767px) {
-    margin-top: 80px;
-  }
-
-  .ahmed {
-    animation-duration: 1.2s;
-    h4 {
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-size: 24px;
-      font-weight: 500;
-      line-height: 28.8px;
-      text-decoration: none solid rgb(70, 47, 54);
-      word-spacing: 0px;
-      color: #f74780;
-
-      @media screen and (max-width: 767px) {
-        font-size: calc(1.275rem + 0.3vw);
-      }
-    }
-
-    h1 {
-      font-family: "Plus Jakarta Sans", sans-serif;
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 57.6px;
-      text-decoration: none solid rgb(53, 63, 79);
-      word-spacing: 0px;
-      color: #353f4f;
-
-      @media screen and (max-width: 767px) {
-        font-size: calc(1.425rem + 2.1vw);
-        font-weight: 700;
-        line-height: 1.2;
-        margin-bottom: 30px !important;
-      }
-    }
-
-    p {
-      color: #757575;
-      font-family: Rubik, sans-serif;
-      font-size: 16px;
-      line-height: 24px;
-      text-decoration: none solid rgb(117, 117, 117);
-      word-spacing: 0px;
-    }
-  }
-}
-
-.prices {
-  .basic {
-    animation-duration: 1.2s;
-    border-radius: 10px;
-    background-color: #f6f6fa;
-    transition: 0.5s;
-    &:hover {
-      background-color: white;
-      box-shadow: rgba(0, 0, 0, 0.1) 6px -7px 20px 10px;
-    }
-
-    .upper {
-      border-bottom: 1px solid #dee2e6;
-
-      .par {
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 32px;
-          font-weight: 700;
-          line-height: 48px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          text-transform: uppercase;
-          word-spacing: 0px;
-          color: #353f4f;
-          @media screen and (max-width: 767px) {
-            font-size: calc(1.325rem + 0.9vw) !important;
-            font-weight: 700 !important;
-          }
-        }
-      }
-      .price {
-        strong {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          font-weight: 700;
-          line-height: 24px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          word-spacing: 0px;
-          color: #353f4f;
-        }
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          word-spacing: 0px;
-          color: #353f4f;
-          span {
-            font-family: Rubik, sans-serif;
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 57.6px;
-            text-decoration: none solid rgb(53, 63, 79);
-            text-align: center;
-            word-spacing: 0px;
-            color: #353f4f;
-            @media screen and (max-width: 767px) {
-              font-size: calc(1.425rem + 2.1vw);
-              font-weight: 700;
-              line-height: 1.2;
-            }
-          }
-        }
-      }
-    }
-    .list {
-      .true {
-        li {
-          &::before {
-            content: "✔";
-            color: #198754;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 16px;
-            display: inline-block;
-            width: 1.5em;
-
-            text-align: left;
-          }
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: left;
-          word-spacing: 0px;
-          color: #757575;
-          margin: 0 0 16px 0;
-          list-style: none;
-          padding-left: 0;
-        }
-      }
-      .wrong {
-        li {
-          &::before {
-            content: "✖";
-            color: #dc3545;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 16px;
-            display: inline-block;
-            width: 1.5em;
-
-            text-align: left;
-          }
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: left;
-          word-spacing: 0px;
-          color: #757575;
-          margin: 0 0 16px 0;
-          list-style: none;
-          padding-left: 0;
-        }
-      }
-
-      button {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(247, 71, 128);
-        text-align: center;
-        vertical-align: middle;
-        word-spacing: 0px;
-        color: #f74780;
-        background-color: #f6f6fa;
-        border: 1px solid #f6f6fa;
-        padding: 8px 48px 8px 48px;
-        border-radius: 800px;
-        transition: 0.5s;
-        &:hover {
-          color: white;
-          background-color: #f74780;
-        }
-      }
-    }
-  }
-  .basicc {
-    animation-duration: 1.2s;
-    border-radius: 10px;
-    background-color: #f6f6fa;
-    transition: 0.5s;
-    position: relative;
-    &:hover {
-      background-color: white;
-      box-shadow: rgba(0, 0, 0, 0.1) 6px -7px 20px 10px;
-    }
-
-    .upperr {
-      border-bottom: 1px solid #dee2e6;
-
-      .popular {
-        position: absolute;
-        width: 200px;
-        height: 110px;
-        top: -45px;
-        right: -80px;
-        color: white;
-        background-color: #f74780;
-        transform: rotate(42deg);
-        display: flex;
-        align-items: end;
-        justify-content: center;
-
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(255, 255, 255);
-          text-align: center;
-          word-spacing: 0px;
-          margin-bottom: 10px !important;
-        }
-      }
-      .par {
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 32px;
-          font-weight: 700;
-          line-height: 48px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          text-transform: uppercase;
-          word-spacing: 0px;
-          color: #353f4f;
-          @media screen and (max-width: 767px) {
-            font-size: calc(1.325rem + 0.9vw) !important;
-            font-weight: 700 !important;
-          }
-        }
-      }
-      .price {
-        strong {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          font-weight: 700;
-          line-height: 24px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          word-spacing: 0px;
-          color: #353f4f;
-        }
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          word-spacing: 0px;
-          color: #353f4f;
-          span {
-            font-family: Rubik, sans-serif;
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 57.6px;
-            text-decoration: none solid rgb(53, 63, 79);
-            text-align: center;
-            word-spacing: 0px;
-            color: #353f4f;
-            @media screen and (max-width: 767px) {
-              font-size: calc(1.425rem + 2.1vw);
-              font-weight: 700;
-              line-height: 1.2;
-            }
-          }
-        }
-      }
-    }
-    .list {
-      .true {
-        li {
-          &::before {
-            content: "✔";
-            color: #198754;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 16px;
-            display: inline-block;
-            width: 1.5em;
-
-            text-align: left;
-          }
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: left;
-          word-spacing: 0px;
-          color: #757575;
-          margin: 0 0 16px 0;
-          list-style: none;
-          padding-left: 0;
-        }
-      }
-      .wrong {
-        li {
-          &::before {
-            content: "✖";
-            color: #dc3545;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 16px;
-            display: inline-block;
-            width: 1.5em;
-
-            text-align: left;
-          }
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: left;
-          word-spacing: 0px;
-          color: #757575;
-          margin: 0 0 16px 0;
-          list-style: none;
-          padding-left: 0;
-        }
-      }
-
-      button {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(247, 71, 128);
-        text-align: center;
-        vertical-align: middle;
-        word-spacing: 0px;
-        color: #f74780;
-        background-color: #f6f6fa;
-        border: 1px solid #f6f6fa;
-        padding: 8px 48px 8px 48px;
-        border-radius: 800px;
-        transition: 0.5s;
-        &:hover {
-          color: white;
-          background-color: #f74780;
-        }
       }
     }
   }
@@ -1421,183 +837,6 @@ header {
     }
   }
 }
-
-.swiper {
-  background-color: #f6f6fa;
-
-  .testimonial {
-    margin-top: 110px;
-    padding-top: 100px;
-
-    @media screen and (max-width: 767px) {
-      margin-top: 100px;
-    }
-
-    .ahmed {
-      animation-duration: 1.2s;
-      h4 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28.8px;
-        text-decoration: none solid rgb(70, 47, 54);
-        word-spacing: 0px;
-        color: #f74780;
-
-        @media screen and (max-width: 767px) {
-          font-size: calc(1.275rem + 0.3vw);
-        }
-      }
-
-      h1 {
-        font-family: "Plus Jakarta Sans", sans-serif;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 57.6px;
-        text-decoration: none solid rgb(53, 63, 79);
-        word-spacing: 0px;
-        color: #353f4f;
-
-        @media screen and (max-width: 767px) {
-          font-size: calc(1.425rem + 2.1vw);
-          font-weight: 700;
-          line-height: 1.2;
-          margin-bottom: 30px !important;
-        }
-      }
-
-      p {
-        color: #757575;
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(117, 117, 117);
-        word-spacing: 0px;
-      }
-    }
-  }
-}
-.grey {
-  background-color: #f6f6f6;
-  .carousel {
-    .carousel-indicators {
-      img {
-        border-radius: 50%;
-        object-fit: cover;
-        transition: 0.1s;
-        &:active {
-          border: 4px solid #6610f2;
-          transform: scale(1.2);
-        }
-      }
-    }
-    .carousel-item {
-      margin-bottom: 120px;
-      @media screen and (max-width: 767px) {
-        margin-bottom: 120px !important;
-      }
-      .pic {
-        width: 100px;
-        height: 100px;
-        border: 2px solid #f74780;
-        border-radius: 50%;
-      }
-      .info {
-        h5 {
-          font-family: "Plus Jakarta Sans", sans-serif;
-          font-size: 20px;
-          font-weight: 400;
-          line-height: 24px;
-          text-decoration: none solid rgb(53, 63, 79);
-          text-align: center;
-          word-spacing: 0px;
-          color: #353f4f;
-          margin: 0 0 8px 0;
-        }
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 16px;
-          line-height: 24px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: center;
-          word-spacing: 0px;
-          color: #757575;
-          font-weight: 200;
-        }
-      }
-      .par {
-        padding-left: 150px;
-        padding-right: 150px;
-        @media screen and (max-width: 767px) {
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-        p {
-          font-family: Rubik, sans-serif;
-          font-size: 20px;
-          font-weight: 300;
-          line-height: 30px;
-          text-decoration: none solid rgb(117, 117, 117);
-          text-align: center;
-          word-spacing: 0px;
-          margin: 0 !important;
-          color: #757575;
-          @media screen and (max-width: 767px) {
-            font-size: 1rem;
-            font-weight: 300;
-            line-height: 1.5;
-            font-family: "Rubik", sans-serif;
-          }
-        }
-      }
-    }
-    .carousel-control-prev {
-      .arrow {
-        z-index: 10;
-        width: 65px;
-        height: 65px;
-        border-radius: 40px;
-        background-color: #f6f6f6;
-        &:hover {
-          color: white;
-          background-color: #f74780;
-        }
-        &:hover i {
-          color: white;
-        }
-        i {
-          color: #f74780;
-        }
-      }
-      @media screen and (max-width: 767px) {
-        margin-bottom: 460px;
-      }
-    }
-    .carousel-control-next {
-      .arrow {
-        z-index: 10;
-        width: 65px;
-        height: 65px;
-        border-radius: 40px;
-        background-color: #f6f6f6;
-        &:hover {
-          color: white;
-          background-color: #f74780;
-        }
-        &:hover i {
-          color: white;
-        }
-        i {
-          color: #f74780;
-        }
-        @media screen and (max-width: 767px) {
-          margin-bottom: 460px;
-        }
-      }
-    }
-  }
-}
-
 .greyy {
   background-color: #f6f6f6;
   .info {
