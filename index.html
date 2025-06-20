@@ -31,7 +31,7 @@
   </head>
 
   <body class="overflow-x-hidden">
-    <a href="" class="scroll">
+    <a href="#" class="scroll">
       <div
         class="scrolll rounded-circle position-fixed d-flex align-items-center justify-content-center"
       >
@@ -39,7 +39,7 @@
       </div>
     </a>
     <header
-      class="d-flex justify-content-between col-12 align-items-center ps-3 pt-0 pe-4 pb-0 d-lg-flex justify-content-lg-between align-items-lg-center pe-lg-5"
+      class="d-flex justify-content-between col-12 align-items-center ps-3 pt-0 pe-4 pb-2 pb-lg-0 d-lg-flex justify-content-lg-between pe-lg-5"
     >
       <div
         class="head d-flex gap-3 align-items-center justify-content-center pt-1 ps-2 d-lg-flex gap-lg-3 align-items-lg-center ps-lg-5 pt-lg-4"
@@ -56,10 +56,10 @@
         <a class="links" href="#">About</a>
         <a class="links" href="#">Services</a>
 
-        <div class="links nav-item dropdown ms-0">
+        <div class="nav-item">
           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
-            >Pages</a
-          >
+            >Pages <i class="fa-solid fa-caret-down"></i
+          ></a>
           <div class="dropdown-menu m-0">
             <a href="feature.html" class="dropdown-item">Features</a>
             <a href="pricing.html" class="dropdown-item">Pricing</a>
@@ -70,7 +70,7 @@
         </div>
 
         <a class="links" href="#">Contact Us</a>
-        <button class="b1">Log In</button>
+        <a href=""><button class="b1">Log In</button></a>
         <button class="b2">Sign Up</button>
       </nav>
 
@@ -81,16 +81,34 @@
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <i
-            class="fa-solid fa-bars"
-            style="color: #f74780; font-size: 20px"
-          ></i>
+          <i class="fa-solid fa-bars" style="color: #f74780; font-size: 20px">
+          </i>
         </button>
         <ul class="dropdown-menu">
-          <div>
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><a class="dropdown-item mb-3" href="#">Home</a></li>
+          <li><a class="dropdown-item mb-3" href="#">About</a></li>
+          <li><a class="dropdown-item mb-3" href="#">Services</a></li>
+          <li>
+            <div class="nav-item mb-3">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle ms-3"
+                data-bs-toggle="dropdown"
+                >Pages <i class="fa-solid fa-caret-down"></i
+              ></a>
+              <div class="dropdown-menu m-0">
+                <a href="feature.html" class="dropdown-item">Features</a>
+                <a href="pricing.html" class="dropdown-item">Pricing</a>
+                <a href="blog.html" class="dropdown-item">Blog</a>
+                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                <a href="404.html" class="dropdown-item">404 Page</a>
+              </div>
+            </div>
+          </li>
+          <li><a class="dropdown-item mb-3" href="#">Contact Us</a></li>
+          <div class="q d-flex flex-row gap-4 ms-3">
+            <button class="b1">Log In</button>
+            <button class="b2">Sign Up</button>
           </div>
         </ul>
       </div>
@@ -122,10 +140,10 @@
       <div
         class="about d-flex flex-column p-2 px-lg-3 pt-lg-5 gap-5 d-lg-flex flex-lg-row"
       >
-        <div class="col-lg-6">
-          <img class="col-12" src="./about-1.png" alt="" />
+        <div class="imagee col-lg-6 wow animate__animated animate__fadeInUp">
+          <img class="col-12 wow animate__animated animate__shakeX " src="./about-1.png" alt="" />
         </div>
-        <div class="col-lg-6 pe-lg-3">
+        <div class="aboutt col-lg-6 pe-lg-3 wow animate__animated animate__fadeInUp">
           <div
             class="aboutus d-flex flex-column align-items-start gap-0 d-lg-flex flex-lg-column align-items-lg-start gap-lg-1"
           >
@@ -137,7 +155,7 @@
               molestias ut animi ab aspernatur dolorum officia nam dolore.
               Voluptatibus aliquam earum labore atque.
             </p>
-            <button>About More</button>
+            <a href="#"><button>About More</button></a>
           </div>
         </div>
       </div>
@@ -147,7 +165,7 @@
       class="ourservice container d-flex align-items-center justify-content-center"
     >
       <div
-        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11"
+        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11 wow animate__animated animate__fadeInUp"
       >
         <h4>Our Service</h4>
         <h1 class="text-center">What We Can Do For You</h1>
@@ -164,7 +182,7 @@
     <div
       class="cards1 container d-flex flex-column col-lg-12 d-lg-flex flex-lg-row"
     >
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-envelopes-bulk"></i>
@@ -174,10 +192,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-thumbs-up"></i>
@@ -187,10 +205,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-train-subway"></i>
@@ -200,10 +218,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-sitemap"></i>
@@ -213,7 +231,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
     </div>
@@ -221,7 +239,7 @@
     <div
       class="cards1 container d-flex flex-column col-lg-12 d-lg-flex flex-lg-row"
     >
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-envelopes-bulk"></i>
@@ -231,10 +249,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-thumbs-up"></i>
@@ -244,10 +262,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-3 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-train-subway"></i>
@@ -257,10 +275,10 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="col-12 p-2 col-lg-3 p-lg-2 pt-lg-4">
+      <div class="cardd col-12 p-2 col-lg-3 p-lg-2 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
         <div class="card col-12 d-flex flex-column gap-3 align-items-center">
           <div>
             <i class="fa-solid fa-sitemap"></i>
@@ -270,7 +288,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur
             adipisicing elit
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
     </div>
@@ -279,7 +297,7 @@
       class="ourfeature container d-flex align-items-center justify-content-center col-12 p-lg-1"
     >
       <div
-        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-10"
+        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-10 wow animate__animated animate__fadeInUp"
       >
         <h4>Our Feature</h4>
         <h1 class="text-center">Important Features For Email Marketing</h1>
@@ -296,7 +314,8 @@
     <div
       class="cards2 container d-flex flex-column col-lg-12 d-lg-flex flex-lg-row"
     >
-      <div class="col-12 p-3 col-lg-3 p-lg-0 pt-lg-4">
+    
+      <div class="cardi col-12 p-3 col-lg-3 p-lg-0 pt-lg-4 wow animate__animated animate__fadeInUp">
         <div class="card col-12 d-flex flex-column gap-0 align-items-center">
           <div>
             <i class="fa-solid fa-envelope"></i>
@@ -314,7 +333,7 @@
           </p>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-0 pt-lg-4">
+      <div class="cardi col-12 p-3 col-lg-3 p-lg-0 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         <div class="card col-12 d-flex flex-column gap-0 align-items-center">
           <div>
             <i class="fa-solid fa-envelopes-bulk"></i>
@@ -332,7 +351,7 @@
           </p>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-0 pt-lg-4">
+      <div class="cardi col-12 p-3 col-lg-3 p-lg-0 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
         <div class="card col-12 d-flex flex-column gap-0 align-items-center">
           <div>
             <i class="fa-solid fa-sitemap"></i>
@@ -350,7 +369,7 @@
           </p>
         </div>
       </div>
-      <div class="col-12 p-3 col-lg-3 p-lg-0 pt-lg-4">
+      <div class="cardi col-12 p-3 col-lg-3 p-lg-0 pt-lg-4 wow animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
         <div class="card col-12 d-flex flex-column gap-0 align-items-center">
           <div>
             <i class="fa-solid fa-list-check"></i>
@@ -370,18 +389,18 @@
       </div>
     </div>
     <div
-      class="buttonn container d-flex align-items-center justify-content-center"
+      class="buttonn container d-flex align-items-center justify-content-center wow animate__animated animate__fadeInUp"
     >
-      <button>More Features</button>
+      <a href="#"><button>More Features</button></a>
     </div>
     <div
       class="users container p-4 gap-4 col-12 d-flex flex-column d-lg-flex flex-lg-row"
     >
-      <div class="image col-12 col-lg-6">
-        <img src="./features-1.png" class="col-12" alt="" />
+      <div class="image col-12 col-lg-6 wow animate__animated animate__fadeInLeft ">
+        <img src="./features-1.png" class="col-12 wow animate__animated animate__shakeX" alt="" />
       </div>
       <div
-        class="feature col-12 d-flex flex-column gap-2 align-items-start col-lg-6"
+        class="feature col-12 d-flex flex-column gap-2 align-items-start col-lg-6 wow animate__animated animate__fadeInRight"
       >
         <h4>Fearutes</h4>
         <h1>Push Your Visitors Into Happy Customers</h1>
@@ -407,12 +426,12 @@
             </div>
           </div>
         </div>
-        <button>Read More</button>
+        <a href="#"><button>Read More</button></a>
       </div>
     </div>
     <div class="accordio">
       <div class="container col-12 d-flex flex-column px-4 px-lg-0 flex-lg-row">
-        <div class="zizo col-12 col-lg-6">
+        <div class="zizo col-12 col-lg-6 wow animate__animated animate__fadeInLeft">
           <div class="accordion" id="accordionExample ">
             <div class="accordion-item mb-4">
               <h2 class="accordion-header">
@@ -521,8 +540,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 pt-5 col-lg-6 ps-lg-5">
-          <img src="./about-1.png" class="col-12" alt="" />
+        <div class="zizoo col-12 pt-5 col-lg-6 ps-lg-5 wow animate__animated animate__fadeInRight">
+          <img src="./about-1.png" class="col-12 wow animate__animated animate__shakeX" alt="" />
         </div>
       </div>
     </div>
@@ -530,7 +549,7 @@
       class="pricing container d-flex align-items-center justify-content-center"
     >
       <div
-        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11"
+        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11 wow animate__animated animate__fadeInUp"
       >
         <h4>Pricing Plan</h4>
         <h1 class="text-center">Not Sure Which Plan Is For You?</h1>
@@ -547,7 +566,7 @@
     <div
       class="prices container col-12 d-flex justify-content-center pt-4 px-4 gap-5 flex-column px-lg-0 flex-lg-row pt-lg-5"
     >
-      <div class="basic d-flex flex-column">
+      <div class="basic d-flex flex-column wow animate__animated animate__fadeInUp">
         <div class="upper d-flex flex-column align-items-center pt-3">
           <div class="par d-flex">
             <p class="mb-0">Basic</p>
@@ -577,10 +596,10 @@
             </ul>
           </div>
 
-          <button class="ms-5">Get Started</button>
+          <a href="#"><button class="ms-5">Get Started</button></a>
         </div>
       </div>
-      <div class="basicc d-flex flex-column overflow-hidden">
+      <div class="basicc d-flex flex-column overflow-hidden wow animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         <div class="upperr d-flex flex-column align-items-center pt-3">
           <div class="popular">
             <p>Popular</p>
@@ -615,10 +634,10 @@
             </ul>
           </div>
 
-          <button class="ms-5">Get Started</button>
+          <a href="#"><button class="ms-5">Get Started</button></a>
         </div>
       </div>
-      <div class="basic d-flex flex-column">
+      <div class="basic d-flex flex-column wow animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
         <div class="upper d-flex flex-column align-items-center pt-3">
           <div class="par d-flex">
             <p style="color: #6610f2" class="mb-0">Premium</p>
@@ -650,7 +669,7 @@
             </ul>
           </div>
 
-          <button class="ms-5">Get Started</button>
+          <a href="#"><button class="ms-5">Get Started</button></a>
         </div>
       </div>
     </div>
@@ -658,7 +677,7 @@
       class="ourblog container d-flex align-items-center justify-content-center"
     >
       <div
-        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11"
+        class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11 wow animate__animated animate__fadeInUp"
       >
         <h4>Our Blog</h4>
         <h1 class="text-center">Join Us For New Blog</h1>
@@ -675,7 +694,7 @@
     <div
       class="pics container d-flex flex-column flex-lg-row justify-content-center gap-4 pt-4 px-4 px-lg-5"
     >
-      <div class="first d-flex flex-column col-12 col-lg-3">
+      <div class="first d-flex flex-column col-12 col-lg-3 wow animate__animated animate__fadeInUp">
         <div class="img col-12 overflow-hidden">
           <div class="overlay"></div>
           <div class="pos d-flex flex-row gap-1 start-0 ms-3">
@@ -700,10 +719,10 @@
             Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur
             adip.
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="first d-flex flex-column col-12 col-lg-3">
+      <div class="first d-flex flex-column col-12 col-lg-3 wow animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
         <div class="img col-12 overflow-hidden">
           <div class="overlay"></div>
           <div class="pos d-flex flex-row gap-1 start-0 ms-3">
@@ -727,10 +746,10 @@
             Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur
             adip.
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="first d-flex flex-column col-12 col-lg-3">
+      <div class="first d-flex flex-column col-12 col-lg-3 wow animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
         <div class="img col-12 overflow-hidden">
           <div class="overlay"></div>
           <div class="pos d-flex flex-row gap-1 start-0 ms-3">
@@ -754,10 +773,10 @@
             Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur
             adip.
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
-      <div class="first d-flex flex-column col-12 col-lg-3">
+      <div class="first d-flex flex-column col-12 col-lg-3 wow animate__animated animate__fadeInUp" style="animation-delay: 0.6s;">
         <div class="img col-12 overflow-hidden">
           <div class="overlay"></div>
           <div class="pos d-flex flex-row gap-1 start-0 ms-3">
@@ -781,7 +800,7 @@
             Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur
             adip.
           </p>
-          <button>Read More</button>
+          <a href="#"><button>Read More</button></a>
         </div>
       </div>
     </div>
@@ -790,7 +809,7 @@
         class="testimonial container d-flex align-items-center justify-content-center"
       >
         <div
-          class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11"
+          class="ahmed d-flex flex-column align-items-center col-12 gap-0 px-1 px-lg-5 col-lg-11 wow animate__animated animate__fadeInUp"
         >
           <h4>Testimonial</h4>
           <h1 class="text-center">What Our Client Say About Us</h1>
@@ -804,8 +823,8 @@
         </div>
       </div>
     </div>
-    <div class="grey">
-      <div id="carouselExampleIndicators" class="carousel slide p-5">
+    <div class="grey ">
+      <div id="carouselExampleIndicators" class="carousel slide p-5 wow animate__animated animate__zoomInDown">
         <!-- Custom image indicators -->
         <div class="carousel-indicators bottom-0 mt-5">
           <img
@@ -1054,7 +1073,7 @@
         class="final col-12 container d-flex flex-column gap-4 flex-lg-row align-items-center justify-content-between pt-4 pb-4 px-5 px-lg-0"
       >
         <div class="one d-flex flex-row">
-          <a class="mb-0" href="">
+          <a class="mb-0" href="#">
             <i class="fa-solid fa-copyright me-1" style="color: white"></i>
             Your Site Name
           </a>
@@ -1063,9 +1082,9 @@
         <div class="two">
           <p class="mb-0" style="color: white">
             Designed By
-            <a href="">HTML Codex</a>
+            <a href="https://htmlcodex.com/">HTML Codex</a>
             Distributed By
-            <a href="">Theme Wagon</a>
+            <a href="https://themewagon.com/">Theme Wagon</a>
           </p>
         </div>
       </div>

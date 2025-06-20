@@ -68,6 +68,43 @@ header {
   }
 
   nav {
+    .nav-item {
+      &:hover > .dropdown-toggle {
+        color: #f74780;
+      }
+      &:hover > .dropdown-menu {
+        display: block;
+        color: brown;
+      }
+      .dropdown-toggle {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none solid rgb(247, 71, 128);
+        word-spacing: 0px;
+        color: #353f4f;
+        transition: 0.5s;
+      }
+      .dropdown-menu {
+        background-color: #f6f6fa;
+        .dropdown-item {
+          font-family: Rubik, sans-serif;
+          font-size: 16px;
+          line-height: 24px;
+          text-decoration: none solid rgb(247, 71, 128);
+          word-spacing: 0px;
+          color: #353f4f;
+          transition: 0.5s;
+          &:hover {
+            color: white;
+            background-color: #f74780;
+          }
+        }
+      }
+      .dropdown-toggle::after {
+        display: none !important;
+      }
+    }
     .links {
       font-family: Rubik, sans-serif;
       font-size: 16px;
@@ -84,17 +121,16 @@ header {
 
     .nav-link.active {
       color: #f74780;
-    } 
+    }
     .ziad {
       #list {
         &:hover {
           color: #f74780;
         }
-        .ss{
-          a{
-text-decoration: none !important;
+        .ss {
+          a {
+            text-decoration: none !important;
           }
-          
         }
 
         i {
@@ -148,17 +184,110 @@ text-decoration: none !important;
 
   .dropdown {
     margin-left: 60px !important;
-  }
-
-  .btn {
-    &::after {
-      display: none !important;
+    .dropdown-menu {
+      font-family: rubik, sans-serif;
+      color: #757575;
+      font-size: 16px;
+      line-height: 24px;
+      word-spacing: 0;
+      padding: 10px 0 10px 0;
+      background-color: #f6f6f6;
+      width: 100vw;
+      margin-top: 20px;
+      border-bottom: 0;
+      border-left: 0;
+      border-right: 0;
     }
+    .nav-item {
+      &:hover > .dropdown-toggle {
+        color: #f74780;
+      }
+      &:hover > .dropdown-menu {
+        display: block;
+        color: brown;
+      }
+      .dropdown-toggle {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none solid rgb(247, 71, 128);
+        word-spacing: 0px;
+        color: #353f4f;
+        transition: 0.5s;
+      }
+      .dropdown-menu {
+        background-color: #f6f6fa;
+        .dropdown-item {
+          font-family: Rubik, sans-serif;
+          font-size: 16px;
+          line-height: 24px;
+          text-decoration: none solid rgb(247, 71, 128);
+          word-spacing: 0px;
+          color: #353f4f;
+          transition: 0.5s;
+          &:hover {
+            color: white;
+            background-color: #f74780;
+          }
+        }
+      }
+      .dropdown-toggle::after {
+        display: none !important;
+      }
+    }
+    .btn {
+      &::after {
+        display: none !important;
+      }
 
-    padding: 8px 20px;
-    border: 1px solid #f74780 !important;
-    background-color: white !important;
-    border-radius: 10px;
+      padding: 8px 20px;
+      border: 1px solid #f74780 !important;
+      background-color: white !important;
+      border-radius: 10px;
+    }
+    .q {
+      .b1 {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none solid rgb(247, 71, 128);
+        text-align: center;
+        vertical-align: middle;
+        word-spacing: 0px;
+        background-color: #f6f6fa;
+        color: #f74780;
+        padding: 8px 24px 8px 24px;
+        border-radius: 800px;
+        border: 1px solid #f74780;
+        transition: 0.5s;
+
+        &:hover {
+          color: #f6f6fa;
+          background-color: #f74780;
+        }
+      }
+
+      .b2 {
+        font-family: Rubik, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none solid rgb(255, 255, 255);
+        text-align: center;
+        vertical-align: middle;
+        word-spacing: 0px;
+        background-color: #f74780;
+        color: #f6f6fa;
+        padding: 8px 24px 8px 24px;
+        border-radius: 800px;
+        border: 1px solid #f74780;
+        transition: 0.5s;
+
+        &:hover {
+          color: #f74780;
+          background-color: #f6f6fa;
+        }
+      }
+    }
   }
 }
 
@@ -242,10 +371,18 @@ text-decoration: none !important;
 }
 
 .about {
+  .imagee{
+    animation-duration: 1.2s;
+  }
   img {
     max-width: 100%;
+    animation-delay: 1.5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
   }
-
+.aboutt{
+animation-duration: 1.2s;
+animation-delay: 0.2s;
   .aboutus {
     max-width: 100%;
 
@@ -313,15 +450,19 @@ text-decoration: none !important;
     }
   }
 }
+  
+}
 
 .ourservice {
   margin-top: 170px;
+  
 
   @media screen and (max-width: 767px) {
     margin-top: 150px;
   }
 
   .ahmed {
+    animation-duration: 1.2s;
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -365,7 +506,9 @@ text-decoration: none !important;
 }
 
 .cards1 {
-  .card {
+  .cardd{
+    animation-duration: 1.2s;
+ .card {
     text-align: center;
     word-spacing: 0px;
 
@@ -441,6 +584,8 @@ text-decoration: none !important;
       }
     }
   }
+  }
+ 
 }
 
 .ourfeature {
@@ -451,6 +596,7 @@ text-decoration: none !important;
   }
 
   .ahmed {
+    animation-duration: 1.2s;
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -494,7 +640,9 @@ text-decoration: none !important;
 }
 
 .cards2 {
-  .card {
+  .cardi{
+    animation-duration: 1.2s;
+.card {
     text-align: center;
     word-spacing: 0px;
 
@@ -567,9 +715,12 @@ text-decoration: none !important;
       color: #757575;
     }
   }
+  }
+  
 }
 
 .buttonn {
+  animation-duration: 1.2s;
   button {
     font-family: Rubik, sans-serif;
     font-size: 16px;
@@ -595,8 +746,16 @@ text-decoration: none !important;
 .users {
   padding-top: 180px !important;
   padding-bottom: 110px !important;
-
+.image{
+  animation-duration: 1.2s;
+  img{
+    animation-delay: 1.5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+}
   .feature {
+    animation-duration: 1.2s;
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -700,6 +859,7 @@ text-decoration: none !important;
   padding-top: 90px;
   padding-bottom: 96px;
   .zizo {
+    animation-duration: 1.2s;
     .accordion-button {
       background-color: white;
       font-family: "Plus Jakarta Sans", sans-serif;
@@ -750,6 +910,15 @@ text-decoration: none !important;
       }
     }
   }
+  .zizoo{
+    animation-delay: 0.3s;
+    animation-duration: 1.2s;
+    img{
+      animation-delay: 1.5s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    }
+  }
 }
 
 .pricing {
@@ -760,6 +929,7 @@ text-decoration: none !important;
   }
 
   .ahmed {
+    animation-duration: 1.2s;
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -804,6 +974,7 @@ text-decoration: none !important;
 
 .prices {
   .basic {
+    animation-duration: 1.2s;
     border-radius: 10px;
     background-color: #f6f6fa;
     transition: 0.5s;
@@ -943,6 +1114,7 @@ text-decoration: none !important;
     }
   }
   .basicc {
+    animation-duration: 1.2s;
     border-radius: 10px;
     background-color: #f6f6fa;
     transition: 0.5s;
@@ -1114,6 +1286,7 @@ text-decoration: none !important;
   }
 
   .ahmed {
+    animation-duration: 1.2s;
     h4 {
       font-family: "Plus Jakarta Sans", sans-serif;
       font-size: 24px;
@@ -1157,6 +1330,7 @@ text-decoration: none !important;
 }
 .pics {
   .first {
+    animation-duration: 1.2s;
     .img {
       background-color: #c7a9fa;
       border-radius: 10px 10px 0 0;
@@ -1246,6 +1420,7 @@ text-decoration: none !important;
 
 .swiper {
   background-color: #f6f6fa;
+
   .testimonial {
     margin-top: 110px;
     padding-top: 100px;
@@ -1255,6 +1430,7 @@ text-decoration: none !important;
     }
 
     .ahmed {
+      animation-duration: 1.2s;
       h4 {
         font-family: "Plus Jakarta Sans", sans-serif;
         font-size: 24px;
@@ -1300,6 +1476,7 @@ text-decoration: none !important;
 .grey {
   background-color: #f6f6f6;
   .carousel {
+    
     .carousel-indicators {
       img {
         border-radius: 50%;
