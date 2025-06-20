@@ -6,8 +6,34 @@
   box-sizing: border-box;
 }
 
+.scroll {
+  .scrolll {
+    width: 56px;
+    height: 56px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f74780;
+    color: white;
+    border: 1px solid #f74881;
+    transition: 0.5s;
+    z-index: 21;
+    i {
+      font-weight: 900;
+    }
+    &:hover {
+      color: #f74780;
+      background-color: white;
+    }
+  }
+}
 header {
-  background-color: aqua;
+  background-color: #f6f6fa;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  @media screen and (max-width: 767px) {
+    position: static;
+  }
 
   .head {
     i {
@@ -58,42 +84,22 @@ header {
 
     .nav-link.active {
       color: #f74780;
-    }
-
-    .list {
-      &:hover {
-        color: #f74780;
-
-        &:hover .box {
-          display: flex;
-          flex-direction: column;
-        }
-      }
-
-      a {
-        font-family: Rubik, sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none solid rgb(247, 71, 128);
-        word-spacing: 0px;
-        color: #353f4f;
-        transition: 0.5s;
-
+    } 
+    .ziad {
+      #list {
         &:hover {
           color: #f74780;
         }
-      }
-
-      i {
-        &:hover {
-          color: #f74780;
+        .ss{
+          a{
+text-decoration: none !important;
+          }
+          
         }
 
-        font-size: 28px;
-      }
-
-      .box {
-        display: none;
+        i {
+          font-size: 28px;
+        }
       }
     }
 
@@ -1456,6 +1462,45 @@ header {
           color: #f74780;
           background-color: white;
         }
+      }
+    }
+  }
+}
+.final {
+  .one {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none solid rgb(198, 57, 102);
+    text-align: left;
+    word-spacing: 0px;
+    transition: 0.5s;
+    a {
+      color: #f74780;
+      text-decoration: none;
+      &:hover {
+        color: #c63966;
+      }
+    }
+  }
+  .two {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    word-spacing: 0px;
+    text-decoration-color: white;
+
+    transition: 0.5s;
+    a {
+      color: #f74780;
+      text-decoration-color: white;
+      text-underline-offset: 4px;
+      margin-bottom: 20px !important;
+      &:hover {
+        color: #c63966;
       }
     }
   }

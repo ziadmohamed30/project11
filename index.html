@@ -31,14 +31,21 @@
   </head>
 
   <body class="overflow-x-hidden">
+    <a href="" class="scroll">
+      <div
+        class="scrolll rounded-circle position-fixed d-flex align-items-center justify-content-center"
+      >
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </a>
     <header
-      class="d-flex justify-content-between col-12 align-items-center ps-3 pt-2 pe-4 pb-2 d-lg-flex justify-content-lg-between align-items-lg-center pe-lg-5"
+      class="d-flex justify-content-between col-12 align-items-center ps-3 pt-0 pe-4 pb-0 d-lg-flex justify-content-lg-between align-items-lg-center pe-lg-5"
     >
       <div
         class="head d-flex gap-3 align-items-center justify-content-center pt-1 ps-2 d-lg-flex gap-lg-3 align-items-lg-center ps-lg-5 pt-lg-4"
       >
-        <i class="fa-solid fa-envelope"></i>
-        <a href="#">
+        <i class="fa-solid fa-envelope mb-0"></i>
+        <a class="mb-0" href="#">
           <h1>Mailler</h1>
         </a>
       </div>
@@ -48,10 +55,20 @@
         <a class="links nav-link active" href="#">Home</a>
         <a class="links" href="#">About</a>
         <a class="links" href="#">Services</a>
-        <div class="list d-flex align-items-center">
-          <a href="#">Pages</a>
-          <i class="ri-arrow-drop-down-line"></i>
+
+        <div class="links nav-item dropdown ms-0">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+            >Pages</a
+          >
+          <div class="dropdown-menu m-0">
+            <a href="feature.html" class="dropdown-item">Features</a>
+            <a href="pricing.html" class="dropdown-item">Pricing</a>
+            <a href="blog.html" class="dropdown-item">Blog</a>
+            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+            <a href="404.html" class="dropdown-item">404 Page</a>
+          </div>
         </div>
+
         <a class="links" href="#">Contact Us</a>
         <button class="b1">Log In</button>
         <button class="b2">Sign Up</button>
@@ -1029,6 +1046,27 @@
                 <i class="fa-brands fa-linkedin-in"></i></div
             ></a>
           </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #353f4f">
+      <div
+        class="final col-12 container d-flex flex-column gap-4 flex-lg-row align-items-center justify-content-between pt-4 pb-4 px-5 px-lg-0"
+      >
+        <div class="one d-flex flex-row">
+          <a class="mb-0" href="">
+            <i class="fa-solid fa-copyright me-1" style="color: white"></i>
+            Your Site Name
+          </a>
+          <p class="mb-0" style="color: white">, All right reserved.</p>
+        </div>
+        <div class="two">
+          <p class="mb-0" style="color: white">
+            Designed By
+            <a href="">HTML Codex</a>
+            Distributed By
+            <a href="">Theme Wagon</a>
+          </p>
         </div>
       </div>
     </div>
