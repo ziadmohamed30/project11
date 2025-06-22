@@ -1479,6 +1479,7 @@ header {
 }
 .grey {
   background-color: #f6f6f6;
+  padding-top: 80px;
   .carousel {
     .carousel-indicators {
       img {
@@ -1526,16 +1527,16 @@ header {
         }
       }
       .par {
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 200px;
+        padding-right: 200px;
         @media screen and (max-width: 767px) {
-          padding-left: 20px;
-          padding-right: 20px;
+          padding-left: 90px;
+          padding-right: 90px;
         }
-        p {
-          font-family: Rubik, sans-serif;
+        span{
+          font-family: Rubik, sans-serif !important;
           font-size: 20px;
-          font-weight: 300;
+          font-weight: 300 !important;
           line-height: 30px;
           text-decoration: none solid rgb(117, 117, 117);
           text-align: center;
