@@ -360,7 +360,8 @@ header {
   margin-top: 200px;
 
   @media screen and (max-width: 767px) {
-    margin-top: 80px;
+    margin-top: 180px;
+    margin-bottom: 50px;
   }
 
   .ahmed {
